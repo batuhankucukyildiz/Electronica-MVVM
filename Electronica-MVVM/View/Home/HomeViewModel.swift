@@ -8,5 +8,9 @@
 import Foundation
 
 class HomeViewModel : ObservableObject {
-    @Published var electronicaList = [ElectronicaData]()
+    @Published var electronicaList = [ElectronicaModel]()
+    init() {
+        getElectronicaList()
+    }
+    func getElectronicaList(){electronicaList = ElectronicaData.electronicaCard }
 }
