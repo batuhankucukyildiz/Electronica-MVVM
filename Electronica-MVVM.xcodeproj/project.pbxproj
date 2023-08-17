@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		45211DB42A8DE789005AB178 /* Electronica_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DB32A8DE789005AB178 /* Electronica_MVVMApp.swift */; };
-		45211DB62A8DE789005AB178 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DB52A8DE789005AB178 /* MainView.swift */; };
+		45211DB62A8DE789005AB178 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DB52A8DE789005AB178 /* HomeView.swift */; };
 		45211DB82A8DE78B005AB178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45211DB72A8DE78B005AB178 /* Assets.xcassets */; };
 		45211DBB2A8DE78B005AB178 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45211DBA2A8DE78B005AB178 /* Preview Assets.xcassets */; };
 		45211DC82A8DF56F005AB178 /* ElectronicaOwnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DC72A8DF56F005AB178 /* ElectronicaOwnerModel.swift */; };
 		45211DCA2A8DF8F3005AB178 /* ElectronicaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DC92A8DF8F3005AB178 /* ElectronicaModel.swift */; };
 		45211DCC2A8E059F005AB178 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DCB2A8E059F005AB178 /* SplashScreenView.swift */; };
+		45211DCE2A8E2BC6005AB178 /* ElectronicaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DCD2A8E2BC6005AB178 /* ElectronicaData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		45211DB02A8DE789005AB178 /* Electronica-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Electronica-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45211DB32A8DE789005AB178 /* Electronica_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electronica_MVVMApp.swift; sourceTree = "<group>"; };
-		45211DB52A8DE789005AB178 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		45211DB52A8DE789005AB178 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		45211DB72A8DE78B005AB178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45211DBA2A8DE78B005AB178 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45211DC72A8DF56F005AB178 /* ElectronicaOwnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicaOwnerModel.swift; sourceTree = "<group>"; };
 		45211DC92A8DF8F3005AB178 /* ElectronicaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicaModel.swift; sourceTree = "<group>"; };
 		45211DCB2A8E059F005AB178 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		45211DCD2A8E2BC6005AB178 /* ElectronicaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicaData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		45211DC12A8DF0BE005AB178 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				45211DCD2A8E2BC6005AB178 /* ElectronicaData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -102,7 +105,7 @@
 		45211DC42A8DF116005AB178 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				45211DB52A8DE789005AB178 /* MainView.swift */,
+				45211DB52A8DE789005AB178 /* HomeView.swift */,
 				45211DCB2A8E059F005AB178 /* SplashScreenView.swift */,
 			);
 			path = View;
@@ -194,7 +197,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45211DB62A8DE789005AB178 /* MainView.swift in Sources */,
+				45211DB62A8DE789005AB178 /* HomeView.swift in Sources */,
+				45211DCE2A8E2BC6005AB178 /* ElectronicaData.swift in Sources */,
 				45211DB42A8DE789005AB178 /* Electronica_MVVMApp.swift in Sources */,
 				45211DCC2A8E059F005AB178 /* SplashScreenView.swift in Sources */,
 				45211DC82A8DF56F005AB178 /* ElectronicaOwnerModel.swift in Sources */,

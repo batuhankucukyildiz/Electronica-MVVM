@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct HomeView: View {
     // MARK:
     var body: some View {
         VStack {
@@ -23,6 +23,6 @@ struct MainView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        HomeView()
     }
 }

@@ -15,7 +15,6 @@ struct SplashScreenView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                VStack {
                     VStack {
                         Image("SplashScreen")
                             .resizable()
@@ -31,10 +30,9 @@ struct SplashScreenView: View {
                             self.opacity = 1.00
                         }
                     }
-                }
                 // NavigationLink to ContentView
                 NavigationLink(
-                    destination: MainView(),
+                    destination: HomeView(),
                     isActive: $isAnimating,
                     label: EmptyView.init
                 )

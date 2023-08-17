@@ -11,7 +11,7 @@ import SwiftUI
 struct Electronica_MVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            HomeView()
         }
     }
 }
