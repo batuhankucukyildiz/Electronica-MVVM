@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    // MARK: 
+struct MainView: View {
+    // MARK:
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -17,11 +17,12 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .navigationBarHidden(true) // Hide the navigation bar in ContentView
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }

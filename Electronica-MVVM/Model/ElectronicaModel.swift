@@ -9,6 +9,9 @@ import Foundation
 
 
 
+
+
+// MARK: Identifiable protocol was used for auto-id
 struct ElectronicaModel : Identifiable {
     var id : Int
     var name : String
