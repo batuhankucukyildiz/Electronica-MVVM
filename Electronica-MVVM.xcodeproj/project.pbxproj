@@ -51,6 +51,12 @@
 		45211DB22A8DE789005AB178 /* Electronica-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				45211DC62A8DF135005AB178 /* Model */,
+				45211DC52A8DF12A005AB178 /* ViewModel */,
+				45211DC42A8DF116005AB178 /* View */,
+				45211DC32A8DF0D1005AB178 /* Helpers */,
+				45211DC22A8DF0C5005AB178 /* Details */,
+				45211DC12A8DF0BE005AB178 /* Data */,
 				45211DB32A8DE789005AB178 /* Electronica_MVVMApp.swift */,
 				45211DB52A8DE789005AB178 /* ContentView.swift */,
 				45211DB72A8DE78B005AB178 /* Assets.xcassets */,
@@ -65,6 +71,48 @@
 				45211DBA2A8DE78B005AB178 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45211DC12A8DF0BE005AB178 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		45211DC22A8DF0C5005AB178 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		45211DC32A8DF0D1005AB178 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		45211DC42A8DF116005AB178 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45211DC52A8DF12A005AB178 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		45211DC62A8DF135005AB178 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
