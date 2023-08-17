@@ -15,6 +15,7 @@
 		45211DCA2A8DF8F3005AB178 /* ElectronicaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DC92A8DF8F3005AB178 /* ElectronicaModel.swift */; };
 		45211DCC2A8E059F005AB178 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DCB2A8E059F005AB178 /* SplashScreenView.swift */; };
 		45211DCE2A8E2BC6005AB178 /* ElectronicaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DCD2A8E2BC6005AB178 /* ElectronicaData.swift */; };
+		45211DD12A8E300B005AB178 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45211DD02A8E300B005AB178 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		45211DC92A8DF8F3005AB178 /* ElectronicaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicaModel.swift; sourceTree = "<group>"; };
 		45211DCB2A8E059F005AB178 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		45211DCD2A8E2BC6005AB178 /* ElectronicaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicaData.swift; sourceTree = "<group>"; };
+		45211DD02A8E300B005AB178 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,7 @@
 		45211DC42A8DF116005AB178 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				45211DB52A8DE789005AB178 /* HomeView.swift */,
+				45211DCF2A8E2FF6005AB178 /* Home */,
 				45211DCB2A8E059F005AB178 /* SplashScreenView.swift */,
 			);
 			path = View;
@@ -125,6 +127,15 @@
 				45211DC92A8DF8F3005AB178 /* ElectronicaModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		45211DCF2A8E2FF6005AB178 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				45211DB52A8DE789005AB178 /* HomeView.swift */,
+				45211DD02A8E300B005AB178 /* HomeViewModel.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			files = (
 				45211DB62A8DE789005AB178 /* HomeView.swift in Sources */,
 				45211DCE2A8E2BC6005AB178 /* ElectronicaData.swift in Sources */,
+				45211DD12A8E300B005AB178 /* HomeViewModel.swift in Sources */,
 				45211DB42A8DE789005AB178 /* Electronica_MVVMApp.swift in Sources */,
 				45211DCC2A8E059F005AB178 /* SplashScreenView.swift in Sources */,
 				45211DC82A8DF56F005AB178 /* ElectronicaOwnerModel.swift in Sources */,
