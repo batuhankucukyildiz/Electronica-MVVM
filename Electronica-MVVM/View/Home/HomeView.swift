@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct HomeView: View {
-    // MARK:
+    @StateObject var viewModel = HomeViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+           
         }
         .padding()
         .navigationBarHidden(true) // Hide the navigation bar in ContentView
