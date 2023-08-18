@@ -9,22 +9,26 @@ import SwiftUI
 
 struct HomeView: View {
     @StateObject var viewModel = HomeViewModel()
+
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false) {
+        VStack {
+            Text("Electronica Card") // Sayfanın en üstünde görünecek başlık
+                .font(.body)
+                .fontWeight(.bold)
+                .padding(.top, 20)
             
-            ZStack{
-                VStack {
-                    ForEach(viewModel.electronicaList) {model in
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(spacing: 16) { // ListView'ler arasında boşluk bırakmak için VStack kullanılıyor
+                    ForEach(viewModel.electronicaList) { model in
                         ListView(name: model.name, image: model.image, about: model.about)
                     }
                 }
-                .padding()
-                .navigationBarHidden(true) // Hide the navigation bar in ContentView
+                .padding(.horizontal)
             }
         }
+        .navigationBarHidden(true)
     }
- }
-
+}
 
 struct ListView: View {
     var name : String , image : String , about : String
@@ -36,15 +40,18 @@ struct ListView: View {
                     Image(image)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-                        .frame(width: 100, height: 100)
+                        .frame(width: 120, height: 120)
                     VStack(alignment: .leading) {
                         Text(name)
                             .padding(.leading, 20)
                             .padding(.bottom, 20)
                             .foregroundColor(.white)
+                            .fontWeight(.bold)
+                            
                         Text(about)
                             .padding(.leading, 20)
                             .foregroundColor(.white)
+                            .fontWeight(.bold)
                     }
                     
                     
